@@ -1,0 +1,134 @@
+/* General Styling */
+/* Additional styles can be placed here */
+#sectionsAside {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hide initially */
+    width: 250px;
+    height: 100%;
+    background: #333;
+    transition: left 0.3s ease;
+    z-index: 1000; /* Ensure sidebar is above other content */
+    overflow-y: auto; /* Enable scrolling if needed */
+}
+
+#sectionsAside.open {
+    left: 0; /* Slide in when open */
+}
+
+#sectionsAside .nav-link {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#sectionsAside .nav-link:hover {
+    background-color: #555;
+}
+
+/* Adjust styles as needed for better appearance */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f5ebe7;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+/* Header Styling */
+header {
+    transition: background-color 0.3s ease-in-out;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Intro Section Styling */
+#intro {
+    min-height: 100vh;
+    padding: 80px 0;
+}
+
+#intro h1 {
+    font-size: 3.5rem;
+}
+
+#intro h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#intro p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+#intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Section Styling */
+#about {
+    padding: 50px 0;
+}
+
+/* Education Section Styling */
+#education {
+    padding: 50px 0;
+}
+
+/* Coursework Section Styling */
+#coursework {
+    padding: 50px 0;
+}
+
+/* Work Experience Section Styling */
+#work-experience {
+    padding: 50px 0;
+}
+
+/* Positions Section Styling */
+#positions {
+    padding: 50px 0;
+}
+
+/* Achievements Section Styling */
+#achievements {
+    padding: 50px 0;
+}
+
+/* Certifications Section Styling */
+#certifications {
+    padding: 50px 0;
+}
+
+/* Skills Section Styling */
+#skills {
+    padding: 50px 0;
+}
+
+/* Languages Section Styling */
+#languages {
+    padding: 50px 0;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 50px 0;
+}
