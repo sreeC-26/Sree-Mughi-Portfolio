@@ -1,4 +1,17 @@
 /* General Styling */
+/* Initial hidden state */
+#intro-text {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+/* Visible state */
+#intro-text.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 #sectionsAside {
     position: fixed;
     top: 0;
